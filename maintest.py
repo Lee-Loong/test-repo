@@ -13,5 +13,5 @@ discover = unittest.defaultTestLoader.discover(pathCase, pattern="SED*.py")
 
 
 with open(filename, "wb") as f:
-    runner = HTMLTestRunner(f, verbosity=2, title="自动化测试用例", description="xx")
+    runner = HTMLTestRunner(f, verbosity=2, title="自动化测试用例执行", description="xx")
     runner.run(discover)
